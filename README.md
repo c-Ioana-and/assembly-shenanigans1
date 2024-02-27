@@ -1,5 +1,10 @@
-# x86 ASM exercises
-## TASK 1:
+# x86 ASM - exercitii
+
+TODO: find the task descriptions...
+
+## Implementare
+
+### TASK 1:
 
 In fisierul "simple.asm" am folosit registrul eax (mai precis,
 subregistrul al) pentru a retine litera din string-ul plain care trebuie
@@ -12,7 +17,7 @@ registrul al (nu se fac shiftari cu valori mai mari decat 26, deci se poate
 scade 26 pentru a retine o litera mare in registru).
 
 
-## TASK 2:
+### TASK 2:
 
 1. Pentru acest task am folosit 2 registre: ecx (cl si ch) pentru a
 retine abcisele si ordonatele celor doua puncte de la adresele ebx + 0 si 
@@ -34,7 +39,7 @@ in variabila sum) in eticheta "square". Daca i^2 este mai mic decat distanta,
 incrementez valoarea din registrul esi si recalculez patratul sau (recalculate). Daca (valoarea din esi)^2 este egala cu distanta, este patrat perfect (eticheta good). Altfel, distanta data nu este patrat perfect (eticheta bad). La eticheta next incrementez adresele lui ebx si ecx pentru a trece la
 urmatoarea distanta.
 
-## TASK 3:
+### TASK 3:
 
 Am ales sa nu folosesc matricea tabula_recta, asa ca am folosit
 registrul edi pentru a putea cripta testul din string-ul plain. M-am folosit
@@ -54,7 +59,7 @@ grija sa descresc lungimea string-ului de criptat si sa cresc lungimea cheii
 pana cand ajung la finalul acesteia, moment in care lungimea trebuie sa devina 0
 pentru a putea repeta cheia de-al lungul string-ului plain.
 
-## TASK 4:
+### TASK 4:
 	
 In implementarea acestui task am considerat matricea un vector de N * N
 elemente. Inainte de a parcurge matricea, calculez in cate "patrate" se va impar-
